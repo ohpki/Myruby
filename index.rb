@@ -57,6 +57,7 @@ def findthird
 
     num = num + 1
   end
+  puts x
 end
 
 findthird
