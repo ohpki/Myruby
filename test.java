@@ -1,25 +1,8 @@
-class Student {
-	String name = "sato";
-	int age = 25;
-	
-	public void calculateAvg(int math, int english ) {
-		System.out.println((math + english)/2 );
-	}
-	public void introduction() {
-		System.out.println("私の名前は" + this.name + "年齢は" + this.age);
-	}
-}
-public class test{
-	public static void main(String[] args) {
-	Student a001 = new Student();
-	a001.name = "kozima";
-	a001.age = 26;
-	
-	System.out.println(a001.name);
-	a001.calculateAvg(80,90);
-	a001.introduction();
-	}
-	int num1 = 10;
+package exercise;
+
+public class first {
+	public static void main(String[] arge) {
+		int num1 = 10;
 		String str1 = "hallo";
 		final String str2 = "hoge";
 		str1 = "hogeho";
@@ -224,8 +207,16 @@ public class test{
 		}
 		
 		
-		int[] number1 = {1,2,3};
-		printArray(number1);
+		int[] number1 = {1,2,3,4,5,6,7,8,9,10};
+		for (int num7 : number1 ) {
+			if (num7==10) {
+				System.out.println(num7);
+			} else {
+				System.out.print(num7+",");
+			}
+		}
+		
+		
 	}
 	
 	
@@ -248,7 +239,13 @@ public class test{
 		String title = "こんにちは";
 		String address = "aaa@aaa";
 		String text = "初めまして";
+		
+		
+		
 	}
 	
+	
+	
+	
+	
 }
-
