@@ -30,6 +30,8 @@ public class first {
 		} else if ( kyori <= 15){
 			System.out.println("とても遠い");
 		}
+
+		
 		
 		String singou = "red";
 		switch(singou) {
