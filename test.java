@@ -242,8 +242,6 @@ public class first {
 		String address = "aaa@aaa";
 		String text = "初めまして";
 		
-		
-		
 	}
 	
 	
